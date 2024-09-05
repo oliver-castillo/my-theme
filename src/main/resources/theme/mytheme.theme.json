@@ -1,0 +1,19 @@
+/*
+{
+  "author": "oliver-castillo",
+  "dark": true,
+  "name": "my-theme",
+  "colors": {
+    "red": "#ff0000",
+    "green": "#00ff00"
+  },
+  "ui": {
+    "Button.background": "red"
+  },
+  "background": {
+    "anchor": "bottom_right",
+    "fill": "plain",
+    "transparency": 50,
+    "image": "images/blue_distortion_1.png"
+  }
+}*/
