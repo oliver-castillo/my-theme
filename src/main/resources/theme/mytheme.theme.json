@@ -1,8 +1,8 @@
 {
   "name": "Mixed Theme",
   "dark": true,
-  "author": "Oliver",
-  "editorScheme": "theme/mytheme.xml",
+  "author": "Oliver Castillo",
+  "editorScheme": "mytheme.xml",
 
   "colors": {
     "oldForeground": "#d8dbe1",
@@ -16,6 +16,10 @@
     "foregroundAlt2": "#4c7880",
     "foregroundAlt3": "#3c8390",
     "foregroundAlt4": "#fab28e",
+
+    "background": "#0D1017",
+    "enabledBackground": "#1d2534",
+    "hoverBackground_": "#252732",
 
     "background1": "#1c1e26",
     "background2": "#2325304d",
@@ -63,16 +67,15 @@
 
   "ui": {
     "*": {
-      "arc": "7",
       "foreground": "#7F9AB3",
-      "background": "background1",
+      "background": "background",
       "infoForeground": "foregroundInfo",
       "selectionForeground": "foregroundBright1",
       "selectionInactiveForeground": "foregroundBright1",
       "selectionBackground": "#2B2D3B",
       "selectionInactiveBackground": "#2B2D3B",
-      "inactiveBackground": "background1",
-      "disabledBackground": "background1",
+      "inactiveBackground": "background",
+      "disabledBackground": "background",
       "borderColor": "borderColor",
       "separatorColor": "separatorColor"
     },
@@ -188,10 +191,10 @@
     "DragAndDrop.areaBorderColor": "selectionBackground",
     "DragAndDrop.borderColor": "selectionBackground",
 
-    "Editor.background": "backgroundAlt",
+    "Editor.background": "background",
     "Editor.shortcutForeground": "custom1",
 
-    "EditorTabs.background": "backgroundAlt",
+    "EditorTabs.background": "background",
     "EditorTabs.inactiveUnderlineColor": "custom2",
     "EditorTabs.underlineColor": "custom1",
     "EditorTabs.underlineHeight": 2,
@@ -212,9 +215,9 @@
     "Link.pressedForeground": "#6494ed",
     "Link.visitedForeground": "#6494ed",
 
-    "List.background": "backgroundAlt",
+    "List.background": "background",
 
-    "Menu.background": "backgroundAlt",
+    "Menu.background": "background",
     "Menu.borderColor": "border2",
 
     "MenuItem.disabledForeground": "#abb2bf80",
@@ -307,7 +310,7 @@
     "SearchEverywhere.Advertiser.background": "#232530",
     "SearchEverywhere.Advertiser.foreground": "foregroundMain",
     "SearchEverywhere.Header.background": "backgroundAlt",
-    "SearchEverywhere.SearchField.background": "background1",
+    "SearchEverywhere.SearchField.background": "background",
     "SearchEverywhere.Tab.selectedBackground": "#292b38",
     "SearchEverywhere.Tab.selectedForeground": "foregroundBright1",
 
@@ -316,7 +319,7 @@
 
     "Separator.separatorColor": "separatorColor",
 
-    "SidePanel.background": "background1",
+    "SidePanel.background": "background",
 
     "StatusBar.hoverBackground": "hoverBackground",
 
@@ -331,7 +334,7 @@
     "Table.focusCellForeground": "#abb2bf",
     "Table.gridColor": "separatorColor",
     "Table.hoverBackground": "#252732",
-    "Table.lightSelectionBackground": "#414855",
+    "Table.lightSelectionBackground": "hoverBackground_",
     "Table.lightSelectionForeground": "#abb2bf",
     "Table.lightSelectionInactiveBackground": "#323844",
     "Table.lightSelectionInactiveForeground": "#abb2bf",
@@ -345,7 +348,7 @@
 
     "TextArea.selectionBackground": "#43465C",
 
-    "TextField.background": "backgroundAlt",
+    "TextField.background": "background",
     "TextField.selectionBackground": "#6C6F93A0",
     "TextPane.selectionBackground": "#6C6F93A0",
 
@@ -370,7 +373,8 @@
 
     "ToolWindow.Button.hoverBackground": "hoverBackground",
     "ToolWindow.Header.background": "backgroundAlt",
-    "ToolWindow.Header.inactiveBackground": "backgroundAlt",
+    "ToolWindow.Header.borderColor": "border1",
+    "ToolWindow.Header.inactiveBackground": "background",
     "ToolWindow.HeaderTab.underlineColor": "custom1",
     "ToolWindow.HeaderTab.underlineHeight": 2,
     "ToolWindow.HeaderTab.underlinedTabBackground": "#292b38",
@@ -414,7 +418,7 @@
     "WelcomeScreen": {
       "separatorColor": "separatorColor",
       "SidePanel": {
-        "background": "backgroundAlt"
+        "background": "background"
       },
       "Projects": {
         "background": "hoverBackground",

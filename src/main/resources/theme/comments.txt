@@ -1,0 +1,40 @@
+"ui": {
+    "*": {
+      "arc": "7",                               // borrar
+      "foreground": "#7F9AB3",
+      "background": "background",				//fondo general
+      "infoForeground": "foregroundInfo",
+      "selectionForeground": "foregroundBright1",
+      "selectionInactiveForeground": "foregroundBright1",
+      "selectionBackground": "#2B2D3B",
+      "selectionInactiveBackground": "#2B2D3B",
+      "inactiveBackground": "test1",				// fondo general cuando hay una ventana (de Settings por ejemplo) abierta. (El header general cambia de color)
+      "disabledBackground": "test2",				// fondo cuando un elemento está deshabilitado (como un combobox por ejemplo)
+      "borderColor": "borderColor",
+      "separatorColor": "separatorColor"
+    },
+
+"ToolWindow.Header.borderColor": "border4" //borde de Project, Git | Log, etc (agregar)
+"ToolWindow.Header.inactiveBackground": "background" //fondo de Project, Git | Log, etc
+
+"Menu.background": "background" // ítems sombreados del menu (al presionar File)
+
+"Editor.background": "background" // fondo total (creo)
+
+"EditorTabs.background": "background" // pestañas del editor
+
+"SidePanel.background": "background" // panel lateral de Settings
+
+"WelcomeScreen": {
+      "separatorColor": "separatorColor",
+      "SidePanel": {
+        "background": "background" // panel lateral de la pantalla de inicio (dónde aparece seleccionar proyecto, etc.)
+      },
+
+ "Component.focusColor": "test1" // apareció como borde de un combobox
+
+"Table.lightSelectionBackground": "#252732" // hover de los proyectos que aparecen en la ventana de inicio
+
+"TextField.background": "background", // fondo de los campos de texto
+
+"List.background": "background", // fondo del searchbox de Git | Log
