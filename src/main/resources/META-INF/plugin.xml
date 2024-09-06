@@ -2,8 +2,8 @@
 <idea-plugin>
     <id>com.github.olivercastillo.mytheme</id>
     <name>Mixed Theme (Beta)</name>
-    <vendor>Oliver Castillo</vendor>
-    <version>0.1.0</version>
+    <vendor>Oliver C.</vendor>
+    <version>0.0.2</version>
     <idea-version since-build="242.21829.142"/>
 
     <depends>com.intellij.modules.platform</depends>
