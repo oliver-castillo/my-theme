@@ -1,9 +1,9 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.olivercastillo.mytheme</id>
-    <name>Mixed Theme (Beta)</name>
-    <vendor>Oliver C.</vendor>
-    <version>0.0.2</version>
+    <id>com.github.oliver.dark_fall</id>
+    <name>Dark Fall (Beta)</name>
+    <vendor email="olcastillot@gmail.com" url="https://github.com/oliver-castillo">Oliver Castillo</vendor>
+    <version>0.2.0</version>
     <idea-version since-build="242.21829.142"/>
 
     <depends>com.intellij.modules.platform</depends>
@@ -11,10 +11,12 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!--<toolWindow factoryClass="com.github.olivercastillo.mytheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>-->
-        <themeProvider id="com.github.olivercastillo.mytheme" path="/theme/mytheme.theme.json"/>
+        <!--<toolWindow factoryClass="com.github.oliver.dark_fall.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>-->
+        <themeProvider id="com.github.oliver.dark_fall"
+                       path="/theme/dark-fall.theme.json"/>
     </extensions>
     <applicationListeners>
-        <listener class="com.github.olivercastillo.mytheme.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.github.oliver.dark_fall.listeners.MyApplicationActivationListener"
+                  topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
 </idea-plugin>
